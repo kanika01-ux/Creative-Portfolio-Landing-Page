@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+}
+nav{
+    width: 100%;
+    height: 4rem;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+#leftnav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 40px;
+}
+#Dribble{
+    width: 12%;
+    height: 50px;
+    background-image: url("./Dribblelogo.webp");
+    background-size: cover;
+    background-position: center;
+    
+}
+#navcontent{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: system-ui, sans-serif;
+    font-weight: 200;
+}
+#navcontent h4{
+    font-weight: 500;  
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#rightnav{
+    width: 20%;
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 40px;
+}
+#navbox1{
+    width: 80px;
+    height: 3rem;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbox2{
+    width: 80px;
+    height: 3rem;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    gap: 72px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.centersection{
+    width: 70%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 30px;
+    gap: 25px;
+}
+.mainheading{
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.centersection h1{
+    font-weight: 500;
+    font-size: 70px;
+}
+.subheading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+}
+.subheading h4{
+    font-weight: 400;
+}
+.searchbar{
+    width: 74%;
+    height: 60px;
+    background-color: #eeebeb;
+    border-radius: 40px;
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    color: #9CA3AF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 17px;
+}
+.searchbar:hover{
+    background-color: transparent;
+}
+.searchbar h5{
+    font-weight: 400;
+    padding-left: 10px;
+    font-size: 15px;
+}
+#searchright{
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+#shot{
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    
+}
+#shot h3{
+    font-weight: 500;
+}
+#searchicon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EC5E95;
+    border-radius: 50%;
+    color: white;
+}
+
+.ri-search-line{
+    font-size: 20px;
+}
+.TrendingSearch{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#Trending{
+    width:fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #9CA3AF;
+}
+#Trending h5{
+    font-weight: 600;
+}
+#search{
+    width: fit-content;
+    padding: 8px 16px;
+    height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #eeebeb;
+    display: flex;
+    align-items: center;
+}
+#search h6{
+    font-weight:500;
+}
+.photogallary{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.phototop{
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#topleft{
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+#topcenter{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.centerword{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 16px;
+    font-size: 15px;
+}
+#grey{
+    background-color: #eeebeb;
+    border-radius: 40px;
+}
+.centerword h4{
+    font-weight: 500;
+}
+#topbottom{
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.photogallary h5{
+    font-weight: 400;
+}
+.photocenter{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 30px;
+}
+.cards{
+    width: 22.5%;
+    height: 280px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+.hovercard{
+    width: 100%;
+    height: 90px;
+     background: linear-gradient(
+        transparent,
+        rgba(0,0,0,0.8)
+    );
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: all ease 0.6s;
+}
+.hoverleft{
+    width: fit-content;
+    height: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 20px;
+}
+.hoverright{
+    width: 35%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 20px;
+}
+#openheart{
+    width: 40px;
+    height: 40px;
+    background-color: #eeebeb;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards:hover .hovercard{
+    opacity: 1;
+}
+#setimage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.cards video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#imgfooter{
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer1{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#font{
+    width:fit-content;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+#font h5,
+#degree h5{
+    font-weight: 500;
+}
+#degree{
+    width: fit-content;
+    background-color: #9CA3AF;
+    color: white;
+}
+#footer2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    gap: 10px;
+}
+.heart{
+    width: 48%;
+    display: flex;
+    gap: 5px;
+}
+.eye{
+    width: 48%;
+    display: flex;
+    gap: 5px;
+}
+.ri-poker-hearts-fill{
+     color: #9CA3AF;
+}
+.ri-poker-hearts-fill:hover{
+     color: red;
+}
+.ri-eye-fill{
+    color: #9CA3AF;
+}
+.Signin{
+    width: fit-content;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@keyframes scroll{
+
+    from{
+        transform: translateX(0);
+    }
+
+    to{
+        transform: translateX(-50%);
+    }
+
+}
+.Annimation{
+    width: 100%;
+    overflow: hidden;
+}
+
+.track{
+    display: flex;
+    width: max-content;
+    gap:200px;
+   animation-name: scroll;
+    animation-duration: 15s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+g
+}
+
+.group{
+    display: flex;
+    gap: 160px;
+    flex-shrink: 0;
+}
+.group img{
+    width: 120px;
+}
+.Dribblefooter{
+    width: 90%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footerleft{
+    width: 15%;
+    height: 40px;
+    background-image: url("./Dribblelogo.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.footercenter{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.footercenter h4{
+    font-weight: 500;
+}
+.footerright{
+    width: 15%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+.ri-twitter-fill{
+    font-size: 25px;
+}
+.ri-facebook-box-fill{
+    font-size: 25px;
+}
+.ri-instagram-line{
+    font-size: 25px;
+}
+.ri-pinterest-fill{
+    font-size: 25px;
+}
