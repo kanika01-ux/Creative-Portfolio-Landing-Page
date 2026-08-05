@@ -6,7 +6,7 @@ A modern animated landing page built using **HTML5** and **CSS3**, inspired by c
 
 ## 🌐 Live Demo
 
-🔗 [Add your GitHub Pages link here after deployment.](https://kanika01-ux.github.io/Creative-Portfolio-Landing-Page/)
+🔗 [Creative-Portfolio-Landing-Page.](https://kanika01-ux.github.io/Creative-Portfolio-Landing-Page/)
 
 ## 🚀 Features
 
